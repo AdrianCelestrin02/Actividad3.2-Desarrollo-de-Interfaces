@@ -1,0 +1,149 @@
+.nombreCabecera{
+  display: flex;
+  justify-content: center;
+  font-size: 8svb;
+  font-weight: 600;
+}
+
+.disco{
+  font-size: 3svb;
+}
+
+.infoArtista{
+  display: flex;
+}
+
+.imgAle{
+  width: 400px;
+  height: 300px;
+}
+
+.barraInicial {
+  width: 100%;
+  max-width: 400px;     
+  height: 14px;         
+  margin: 0 auto;      
+  background: #e3e3e3;  
+  border-radius: 7px;   
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;     
+}
+
+.lineas {
+  flex: 1;                
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.linea {
+  height: 12px;
+  background: #d6d6d6;
+  border-radius: 3px;
+}
+
+.reproductor {
+  display: flex;
+  flex-direction: column;  
+  gap: 16px;               
+}
+
+.fila,
+.filapanel {
+  display: flex;           
+  align-items: center;     
+  gap: 12px;              
+}
+
+.filapanel {
+  background: #f0f0f0;    
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.fila input[type="range"] {
+  flex: 1;
+  cursor: pointer;
+}
+
+.fila,.filapanel,.linea,.lineas:hover{
+  cursor: pointer;
+
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(16, 142, 205);
+}
+
+.radioSection{
+  display: flex;
+  flex-direction: row;
+  gap: 20dp;
+  justify-content: center;
+}
+
+.radioSection div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btnAlejandroSanz{
+  background-color: blueviolet;
+  text-align: center;
+  color: #f0f0f0;
+  border-radius: 20px;
+  margin-top: 30px;
+  width: 40%;
+}
+
+.emojis {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.emoji {
+  display: inline-block;        
+  font-size: 1.8rem;
+  opacity: 0.6;
+  transition: transform 0.5s;     
+}
+
+.emoji:hover {
+  cursor: pointer;
+  transform: rotateX(360deg);     
+}
+
+.emojiCentral {
+  display: inline-block;   
+  font-size: 3.5rem;
+  line-height: 1;          
+  opacity: 1;
+  padding: 10px 14px;
+  border: 3px solid #333;
+  border-radius: 16px;
+}
+
+.nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  border-top: 1px solid #ddd;
+}
+
+.nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.nav a :hover{
+  cursor: pointer;
+}
