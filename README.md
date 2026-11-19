@@ -1,16 +1,79 @@
-# React + Vite
+# Actividad 3.2 - Desarrollo de Interfaces
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del proyecto
 
-Currently, two official plugins are available:
+Este proyecto consiste en el desarrollo de una interfaz gráfica de reproducción musical utilizando React y Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La interfaz está inspirada en el artista Alejandro Sanz y su álbum «Más». Se ha dividido en diferentes componentes para organizar el código y facilitar su mantenimiento.
 
-## React Compiler
+El objetivo de la actividad es practicar la creación de componentes en React, la organización de una aplicación y el uso de diferentes elementos HTML para construir una interfaz.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- **React 19:** creación de componentes y construcción de la interfaz.
+- **JavaScript:** lógica de la aplicación.
+- **HTML:** estructura de los elementos.
+- **CSS:** diseño y estilos visuales.
+- **Vite:** entorno de desarrollo y compilación.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura del proyecto
+
+Los principales componentes de la aplicación son:
+
+| Componente | Descripción |
+|---|---|
+| `App.jsx` | Componente principal que organiza el resto de componentes. |
+| `Cabecera.jsx` | Muestra el nombre del artista y el álbum. |
+| `BarraInicial.jsx` | Representa una barra de progreso. |
+| `InfoArtista.jsx` | Muestra la imagen del artista y elementos visuales. |
+| `Reproductor.jsx` | Contiene los controles de reproducción y volumen. |
+| `SeccionRadio.jsx` | Incluye casillas de verificación en diferentes estados. |
+| `Emojis.jsx` | Muestra una selección de emojis con efectos visuales. |
+| `Nav.jsx` | Contiene la barra de navegación inferior. |
+| `App.css` | Define los estilos de los diferentes componentes. |
+
+## Características
+
+- Interfaz dividida en componentes independientes.
+- Cabecera personalizada con el nombre del artista y su álbum.
+- Barra de progreso.
+- Controles visuales de reproducción musical.
+- Casillas de verificación en estado seleccionado, no seleccionado e indeterminado.
+- Efectos visuales al pasar el cursor sobre los elementos.
+- Barra de navegación inferior.
+
+## Instalación y ejecución
+
+Para ejecutar el proyecto en local, sigue estos pasos:
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/AdrianCelestrin02/Actividad3.2-Desarrollo-de-Interfaces.git
+   ```
+
+2. Acceder a la carpeta del proyecto:
+
+   ```bash
+   cd Actividad3.2-Desarrollo-de-Interfaces
+   ```
+
+3. Instalar las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Iniciar el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abrir en el navegador la dirección local que proporciona Vite.
+
+## Autor
+
+**Adrián Celestrin**
+
+Actividad 3.2 - Desarrollo de Interfaces (DAM).
